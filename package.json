@@ -1,0 +1,32 @@
+{
+  "name": "nqm-api-tdx-react",
+  "version": "0.1.0",
+  "description": "A library of React components providing declarative/compositional access to the TDX.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "build": "webpack"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^23.1.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "dependencies": {
+    "@nqminds/nqm-tdx-client": "^0.5.0",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1"
+  }
+}
